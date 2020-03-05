@@ -1,8 +1,12 @@
-//
-// This is only a SKELETON file for the 'RNA Transcription' exercise. It's been provided as a
-// convenience to get you started writing code faster.
-//
+export const toRna = (dnaString) => {
 
-export const toRna = () => {
-  throw new Error("Remove this statement and implement this function");
+
+  const map = {
+    C: 'G',
+    G: 'C',
+    A: 'U',
+    T: 'A'
+  };
+
+  return dnaString.replace(/[CGAT]/g, result => map[result]);
 };
