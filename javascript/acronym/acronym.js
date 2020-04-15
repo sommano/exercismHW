@@ -5,5 +5,5 @@
 //
 
 export const parse = () => {
-  throw new Error("Remove this statement and implement this function");
+  return str.replace(/([\w])[A-Z]*[a-z]*[\W_]*/g, '$1').toUpperCase();
 };
