@@ -1,3 +1,2 @@
 String reverse() {
-  // Put your code here
-}
+  return text.split('').reversed.join('');}
