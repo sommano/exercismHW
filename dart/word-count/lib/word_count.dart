@@ -1,4 +1,5 @@
 class WordCount {
+    
 Map<String, int> countWords(String sentence) {
     var words = new RegExp(r"\w+(\'\w+)?");
 
@@ -14,6 +15,6 @@ Map<String, int> countWords(String sentence) {
       }
       return wordCounts;
     });
-    // ugly dartfmt tool
+
   }
 }
